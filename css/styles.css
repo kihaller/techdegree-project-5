@@ -435,9 +435,10 @@ template {
   background-image: url(../images/icon-small.png);
   background-position: calc(100% - 10px) 10px;
   background-repeat: no-repeat;
+  box-shadow: 0px 8px 3px -6px grey;
 }
 
-/* line 13, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/components/_forms.scss */
+/* line 14, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/components/_forms.scss */
 .input:hover {
   background-color: #DCDCDC;
 }
