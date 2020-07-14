@@ -13,3 +13,27 @@
   max-width: 1200px;
   padding: 0 1rem;
 }
+
+/* ============================================= */
+/*              Plugin styles                      */
+/* ============================================= */
+
+//Captions
+
+.lb-caption {
+  text-align: center;
+
+}
+
+.lb-caption h1 {
+  font-family: $font-stack-accent;
+}
+
+.lb-caption p {
+  line-height: 1.5em;
+}
+
+.lb-number {
+  font-size: 8px !important;
+  color: $color-text !important;
+}

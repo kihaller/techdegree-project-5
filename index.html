@@ -4,11 +4,17 @@
     <meta charset="utf-8" />
     <title>Photo Gallery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body class="container">
@@ -18,41 +24,117 @@
 
     <div class="grid">
       <div class="images">
-        <img src="photos/01.jpg" />
+        <a
+          href="photos/01.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Hay Bales</h1><p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>"
+          data-search="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
+        >
+          <img src="photos/01.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/02.jpg" />
+        <a
+          href="photos/02.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Lake</h1><p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>"
+        >
+          <img src="photos/02.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/03.jpg" />
+        <a
+          href="photos/03.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Canyon</h1><p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p>"
+        >
+          <img src="photos/03.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/04.jpg" />
+        <a
+          href="photos/04.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Iceberg</h1><p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</p>"
+        >
+          <img src="photos/04.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/05.jpg" />
+        <a
+          href="photos/05.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Desert</h1><p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>"
+        >
+          <img src="photos/05.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/06.jpg" />
+        <a
+          href="photos/06.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Fall</h1><p>Fall is coming, I love when the leaves on the trees start to change color.</p>"
+        >
+          <img src="photos/06.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/07.jpg" />
+        <a
+          href="photos/07.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Plantation</h1><p>I drove past this plantation yesterday, everything is so green!</p>"
+        >
+          <img src="photos/07.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/08.jpg" />
+        <a
+          href="photos/08.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Dunes</h1><p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>"
+        >
+          <img src="photos/08.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/09.jpg" />
+        <a
+          href="photos/09.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Countryside Lane</h1><p>We enjoyed a quiet stroll down this countryside lane.</p>"
+        >
+          <img src="photos/09.jpg" />
+        </a>
+      </div>
+
+      <div class="images">
+        <a
+          href="photos/10.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Sunset</h1><p>Sunset at the coast! The sky turned a lovely shade of orange.</p>"
+        >
+          <img src="photos/10.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/10.jpg" />
+        <a
+          href="photos/11.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Cave</h1><p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>"
+        >
+          <img src="photos/11.jpg" />
+        </a>
       </div>
       <div class="images">
-        <img src="photos/11.jpg" />
-      </div>
-      <div class="images">
-        <img src="photos/12.jpg" />
+        <a
+          href="photos/12.jpg"
+          data-lightbox="photo"
+          data-title="<h1>Bluebells</h1><p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>"
+        >
+          <img src="photos/12.jpg" />
+        </a>
       </div>
     </div>
+    <script src="js/lightbox.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
