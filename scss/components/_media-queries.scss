@@ -1,0 +1,15 @@
+@media (min-width: $breakpoint-tablet) {
+  @include flexbox;
+
+  .images {
+    width: 50%;
+  }
+}
+
+@media (min-width: $breakpoint-laptop) {
+  @include flexbox;
+
+  .images {
+    width: 25%;
+  }
+}

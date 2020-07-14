@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+mockups/
+**/.DS_Store
+.DS_Store
+photos/.DS_Store
+.DS_Store
