@@ -393,6 +393,7 @@ template {
 /* line 11, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/base/_typography.scss */
 .container {
   margin: 0 auto;
+  margin-bottom: 2em;
   max-width: 1200px;
   padding: 0 1rem;
 }
@@ -400,22 +401,22 @@ template {
 /* ============================================= */
 /*              Plugin styles                      */
 /* ============================================= */
-/* line 23, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/base/_typography.scss */
+/* line 24, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/base/_typography.scss */
 .lb-caption {
   text-align: center;
 }
 
-/* line 28, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/base/_typography.scss */
+/* line 29, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/base/_typography.scss */
 .lb-caption h1 {
   font-family: "Playfair Display", serif;
 }
 
-/* line 32, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/base/_typography.scss */
+/* line 33, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/base/_typography.scss */
 .lb-caption p {
   line-height: 1.5em;
 }
 
-/* line 36, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/base/_typography.scss */
+/* line 37, ../../../../../Users/kimhaller/Desktop/Projects_Techdegree/techdegree-project-5/scss/base/_typography.scss */
 .lb-number {
   font-size: 8px !important;
   color: #777 !important;
@@ -433,7 +434,7 @@ template {
   border: 1px solid #777;
   border-radius: 5px;
   background-image: url(../images/icon-small.png);
-  background-position: calc(100% - 10px) 10px;
+  background-position: calc(100% - 10px) center;
   background-repeat: no-repeat;
   box-shadow: 0px 8px 3px -6px grey;
 }
